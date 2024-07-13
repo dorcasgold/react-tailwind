@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { MdOutlineClose } from "react-icons/md";
 import { HiOutlineArrowLeft } from "react-icons/hi";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { decrementQuantity, deleteItem, incrementQuantity, resetCart } from '../redux/bazarSlice';
 import { Link } from 'react-router-dom'
 

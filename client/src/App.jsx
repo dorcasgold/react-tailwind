@@ -6,6 +6,7 @@ import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from '
 import { productsData } from "./api/Api";
 import Products from "./components/Products";
 import SingleProduct from "./components/SingleProduct";
+import Login from "./pages/Login";
 
 const Layout = () => {
   return (
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/cart',
         element: <Cart />,
+      },
+      {
+        path: '/login',
+        element: <Login />
       }
     ]
   }
